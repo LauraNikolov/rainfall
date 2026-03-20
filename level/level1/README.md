@@ -25,7 +25,7 @@ End of assembler dump.
 
 ## Run function 
 
-
+```bash
 08048444 <run>:
  8048444:	55                   	push   %ebp
  8048445:	89 e5                	mov    %esp,%ebp
@@ -44,7 +44,7 @@ End of assembler dump.
  8048479:	e8 e2 fe ff ff       	call   8048360 <system@plt>
  804847e:	c9                   	leave  
  804847f:	c3                   	ret   
-
+```
 
 
 
